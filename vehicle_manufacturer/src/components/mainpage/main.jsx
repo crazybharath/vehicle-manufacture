@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Header from "../header/header";
-import ("./main.css")
+import("./main.css")
 
 const Main = () => {
     const [post, setpost] = useState([]);
-   console.log(post);
+    console.log(post);
     useEffect(() => {
         const handle = async () => {
             await fetch("https://vpic.nhtsa.dot.gov/api/vehicles/GetWMIsForManufacturer/hon?format=json").then(res => res.json()).then((data) => {
@@ -33,14 +33,14 @@ const Main = () => {
                         {
                             post?.map?.((post, index) => {
                                 return (
-                                    index < 30 &&(
+                                    index < 30 && (
                                         <tr>
-                                        <td className="table-post">{post?.Name}</td>
-                                        <td className="table-post">{post?.Country}</td>
-                                        <td className="table-post">{post?.VehicleType}</td>
-                                    </tr>
+                                            <td className="table-post">{post?.Name}</td>
+                                            <td className="table-post">{post?.Country}</td>
+                                            <td className="table-post">{post?.VehicleType}</td>
+                                        </tr>
                                     )
-                                    
+
                                 )
                             })
                         }

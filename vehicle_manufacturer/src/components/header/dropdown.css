@@ -1,7 +1,8 @@
-.dropdown{
+.dropdown {
     height: 2rem;
 }
-.dropdown-menu{
+
+.dropdown-menu {
     width: 15rem;
     text-align: center;
     color: black;
@@ -10,17 +11,21 @@
     cursor: pointer;
     padding: 2rem;
 }
-.dropdown-menu:hover{
+
+.dropdown-menu:hover {
     color: white;
     background: gray;
 }
-.dropdown-list{
+
+.dropdown-list {
     border: 1px solid transparent;
 }
-.dropdown-list:hover{
+
+.dropdown-list:hover {
     border: 1px solid white;
 }
-.dropdown-list{
+
+.dropdown-list {
     list-style-type: none;
     position: absolute;
     bottom: -2rem;
