@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+.header{
+    width: 900px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+#search{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+}
+.searchname{
+    font-weight: 900;
+
+}

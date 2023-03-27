@@ -1,0 +1,30 @@
+.dropdown{
+    height: 2rem;
+}
+.dropdown-menu{
+    width: 15rem;
+    text-align: center;
+    color: black;
+    background: lightgray;
+    position: relative;
+    cursor: pointer;
+    padding: 2rem;
+}
+.dropdown-menu:hover{
+    color: white;
+    background: gray;
+}
+.dropdown-list{
+    border: 1px solid transparent;
+}
+.dropdown-list:hover{
+    border: 1px solid white;
+}
+.dropdown-list{
+    list-style-type: none;
+    position: absolute;
+    bottom: -2rem;
+    left: 0;
+    width: 100%;
+    background: gray;
+}
